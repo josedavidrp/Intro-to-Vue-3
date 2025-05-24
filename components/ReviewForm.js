@@ -19,7 +19,7 @@ app.component('review-form', {
     </select>
 
     
-    <input type="checkbox" id="recommend" v-model.Boolean="recommend">
+    <input type="checkbox" id="recommend" name="Yes I would" v-model.Boolean="recommend">
     <label for="recommend">Would you recommend this product?</label>
     
     <input class="button" type="submit" value="Submit">
